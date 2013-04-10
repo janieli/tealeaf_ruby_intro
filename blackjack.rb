@@ -132,9 +132,9 @@ playerhand.each do |card|
 end
 puts ""
 
-if dealertotal > playertotal && dealertotal <= 21
+if dealertotal > playertotal
 	puts "Sorry, dealer wins."
- elsif dealertotal < playertotal  && playertotal <= 21
+ elsif dealertotal < playertotal
  	puts "Congratulations, you win!"
  else
  	puts "It's a push. Player and Dealer tie."
